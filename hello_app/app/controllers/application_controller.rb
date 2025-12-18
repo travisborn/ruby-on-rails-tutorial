@@ -6,7 +6,7 @@ class ApplicationController < ActionController::Base
   stale_when_importmap_changes
 
   def hello
-    render html: "Hello, World!"
+    render html: "Hello, Cruel World!"
   end
 
   def goodbye
